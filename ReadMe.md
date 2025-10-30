@@ -2,7 +2,7 @@
 
 ## Overview
 
-Welcome to the Vontive dataset agent challenge! This take-home assignment will evaluate your ability to build complex AI agents to preform tasks with messy production data.
+Welcome to the Vontive dataset agent challenge! This take-home assignment will evaluate your ability to build complex AI agents to perform tasks with messy production data.
 
 In real-world underwriting workflows, loan processors need to analyze multiple tax documents for a single property to extract critical information like tax amounts, payment dates, parcel numbers, and county information. Your task is to build a simplified version of this system.
 

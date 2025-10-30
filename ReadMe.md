@@ -16,7 +16,7 @@ Build an AI agent that:
 
 ## Dataset Schema
 
-Your agent must extract the following fields and return them as a JSON object:
+Your agent must extract the following fields and return them as a JSON object (values here are just for example):
 
 ```json
 {

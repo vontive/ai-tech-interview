@@ -130,11 +130,11 @@ Submit a repository containing:
 
 ## Time Expectation
 
-This challenge should take approximately **4-6 hours** to complete. We value quality over speed—focus on building a well-architected, working solution rather than rushing through it.
+This challenge should take approximately **2-4 hours** to complete. We value quality over speed—focus on building a well-architected, working solution rather than rushing through it.
 
 ## Questions?
 
-If you have questions about requirements or need clarification, please reach out to your Sahil @ s.agarwal@vontve.com. He is happy to help!
+If you have questions about requirements or need clarification, please reach out to Zach (z.loubier@vontive.com) or Sahil (s.agarwal@vontve.com). We are happy to help!
 
 ## Bonus Points
 

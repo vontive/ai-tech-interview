@@ -6,6 +6,8 @@ Welcome to the Vontive dataset agent challenge! This take-home assignment will e
 
 In real-world underwriting workflows, loan processors need to analyze multiple tax documents for a single property to extract critical information like tax amounts, payment dates, parcel numbers, and county information. Your task is to build a simplified version of this system.
 
+The zip files under the tax_certificates directory are grouped together by property, each zip represents one property, and the documents are all related to each other.
+
 ## The Challenge
 
 Build an AI agent that:

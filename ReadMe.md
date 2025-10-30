@@ -21,8 +21,8 @@ Your agent must extract the following fields and return them as a JSON object (v
 ```json
 {
   "taxYear": "2024",                      // 4-digit year (string, pattern: "^(20[0-9]{2})$")
-  "annualizedAmountDue": 1378.24,         // Total annual tax amount (number)
-  "amountDueAtClosing": 1816.79,          // Amount due at loan closing (number)
+  "annualizedAmountDue": 1378.24,         // Total annual tax amount (number), summed across multiple jurisdictions, should not include delinquent taxes
+  "amountDueAtClosing": 1816.79,          // Amount due at loan closing (number), includes delinquent and unpaid overdue taxes
   "county": "Allegheny",                  // County name without "County" suffix (string)
   "parcelNumber": "0879-J-00220-0000-00", // Property parcel/APN/tax ID (string)
   "nextTaxPaymentDate": "2024-08-31",     // Next payment date (ISO date string)
@@ -58,10 +58,12 @@ Your agent must:
 ## Technical Requirements
 
 ### Suggested Technology
-- **LangGraph** for agent orchestration
-- **Claude (Anthropic)** as the LLM (claude-sonnet-4-20250514 or similar)
+- **LangGraph (or similar)** for agent orchestration
+- **Claude (Anthropic)** as the model (claude-sonnet-4-20250514 or similar)
 - **Python 3.12+**
 - **uv** for package management
+
+You are free to use any model you wish. If you do not have your own API key for model access, we can provide you with an Anthropic API key.
 
 
 ### Suggested Agent Structure
@@ -131,6 +133,8 @@ Submit a repository containing:
 ## Time Expectation
 
 This challenge should take approximately **2-4 hours** to complete. We value quality over speed—focus on building a well-architected, working solution rather than rushing through it.
+
+If you do not have a fully working solution after the allotted time period, that's totally fine! But be prepared to explain your design choices, and the future changes you would make to complete it.
 
 ## Questions?
 
